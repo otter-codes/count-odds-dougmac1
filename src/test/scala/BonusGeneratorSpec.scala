@@ -2,7 +2,7 @@ import org.scalatest.{MustMatchers, WordSpec}
 
 class BonusGeneratorSpec extends WordSpec with MustMatchers {
 
-  "BonusGenerator" must {
+  "BonusGenerator" ignore {
 
     "when given 100 and true return £120" in {
       BonusGenerator.bonus(100, Bonus = true) mustEqual "£120"
