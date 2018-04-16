@@ -5,11 +5,15 @@ class BonusGeneratorSpec extends WordSpec with MustMatchers {
   "BonusGenerator" must {
 
     "when given 100 and true return 120" in {
-      BonusGenerator.bonus(100, true) mustEqual "120"
+      BonusGenerator.bonus(100, Bonus = true) mustEqual "120"
     }
 
     "when given 100 and false return 100" in {
-      BonusGenerator.bonus(100, false) mustEqual "100"
+      BonusGenerator.bonus(100, Bonus = false) mustEqual "100"
+    }
+
+    "when given 80 and false return 80" in {
+      BonusGenerator.bonus(80, Bonus = false) mustEqual "80"
     }
 
 

@@ -1,7 +1,11 @@
 object BonusGenerator {
 
   def bonus(Salary : Int, Bonus : Boolean) : String = {
-    if (Bonus) "120" else "100"
+    if (Bonus) {
+      s"${(Salary * 1.2).toInt}"
+    } else {
+      s"$Salary"
+    }
   }
 
 }
