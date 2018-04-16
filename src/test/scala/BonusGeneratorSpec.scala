@@ -12,7 +12,7 @@ class BonusGeneratorSpec extends WordSpec with MustMatchers {
       BonusGenerator.bonus(100, false) mustEqual "100"
     }
 
-    
+
   }
 
 }
