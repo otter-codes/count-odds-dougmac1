@@ -1,7 +1,8 @@
-object Reversed {
+object OddCount {
 
-  def count(Int: Int) : Int = {
-    1
+  def count(list: Int) : Int = {
+    val range = 0 until list
+    val filteredList = range.count(x => x % 2 != 0)
+    filteredList
   }
-
 }
