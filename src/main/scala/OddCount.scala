@@ -6,3 +6,7 @@ object OddCount {
     filteredList
   }
 }
+
+
+val X = 10
+List.range(1,X,2).length

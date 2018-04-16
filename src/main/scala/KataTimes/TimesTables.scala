@@ -6,6 +6,6 @@ object TimesTables extends App {
     val oneToTen = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
     oneToTen.map(x => s"$x * $Integer = ${x * Integer}")
-    
+
   }
 }
